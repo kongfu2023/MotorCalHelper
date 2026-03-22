@@ -1,0 +1,27 @@
+{
+  "name": "motor-cal-helper",
+  "version": "1.0.0",
+  "description": "新能源汽车主驱电机台架标定app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron ."
+  },
+  "keywords": [
+    "motor",
+    "calibration",
+    "can",
+    "xcp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^20.0.0"
+  },
+  "dependencies": {
+    "canlib": "^1.0.0",
+    "xcp": "^1.0.0",
+    "chart.js": "^3.7.0",
+    "fs-extra": "^10.0.0"
+  }
+}
